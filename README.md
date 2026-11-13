@@ -33,6 +33,9 @@ Instalación automática:
 `configure-openai-key.sh` solicita la clave sin mostrarla en pantalla y la guarda
 únicamente en el archivo local `.env`, que Git ignora.
 
+En macOS también puedes abrir `Configurar OpenAI.command` con doble clic para
+iniciar el mismo configurador seguro.
+
 Instalación manual:
 
 ```bash
