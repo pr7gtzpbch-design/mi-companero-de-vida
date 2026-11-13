@@ -22,6 +22,19 @@ La aplicación visual del dragón y el modo de voz se incorporarán sobre esta b
 
 Requiere Python 3.9 o superior.
 
+Instalación automática:
+
+```bash
+./scripts/setup.sh
+./scripts/configure-openai-key.sh
+./scripts/start.sh
+```
+
+`configure-openai-key.sh` solicita la clave sin mostrarla en pantalla y la guarda
+únicamente en el archivo local `.env`, que Git ignora.
+
+Instalación manual:
+
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
